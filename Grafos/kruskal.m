@@ -1,0 +1,4 @@
+function kruskal(mPesos)
+    
+end
+
