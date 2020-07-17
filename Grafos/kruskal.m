@@ -1,4 +1,0 @@
-function kruskal(mPesos)
-    
-end
-
