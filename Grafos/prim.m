@@ -57,7 +57,7 @@ function prim(mPesos, vInicial)
         % Quitamos los que ya han sido vistos
         for i = 1:length(orden)
             flagL = true;
-            for j = 1:length(L)
+            for j = 1:length(L) %%%%%%%%%%%%%%%%% Estoy aqui
                 if orden(i) == j && flagL == true
                     L(j) = [];
                     flagL = false;
