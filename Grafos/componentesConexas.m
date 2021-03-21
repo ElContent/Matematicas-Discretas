@@ -56,5 +56,14 @@ fprintf("Matriz de componentes conexas: \n");
 disp(MCO);
 disp(solu);
 
+nSolu = size(solu, 1);
+
+if N == nSolu
+    fprintf("El grafo es conexo. \n");
+    if mod(N, 2) == 0
+        fprintf("Además, el grafo es Euleriano y se puede usar el Algoritmo de Fleury. \n");
+    end
+end
+
 
 end
